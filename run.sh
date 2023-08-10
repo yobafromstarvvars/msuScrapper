@@ -1,4 +1,5 @@
 #!/bin/bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+source venv/bin/activate;
+python findPersonMsu.py $1 $2 $3;
+python findPersonVk.py;
+deactivate;

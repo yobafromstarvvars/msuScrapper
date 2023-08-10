@@ -2,7 +2,6 @@
 token = ''
 # VK user
 user_id = ''
-user2_id = ''
 # Which name to search for on the 'msu' site
 search_name = ''
 # Which name to search for on the VK site

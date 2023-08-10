@@ -1,5 +1,9 @@
 import vk_api, pprint
 from config import *
+import sys
+
+# Abort if no token
+if not token: sys.exit()
 
 session = vk_api.VkApi(token=token)
 vk = session.get_api()
